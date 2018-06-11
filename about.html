@@ -45,19 +45,19 @@ Tänk dig att du ska skapa mallen för alla sidor på wikipedia.
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
         <div class="container">
-            <a class="navbar-brand" href="index.html" style="text-transform: uppercase;">Philip!</a>
+            <a class="navbar-brand" href="index.html" style="text-transform: uppercase;">Antonsson</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">start
-                            <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">kontakter</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">kontakter
+                            <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">blog</a>
@@ -70,31 +70,35 @@ Tänk dig att du ska skapa mallen för alla sidor på wikipedia.
     
     <!-- CONTENT -->
     <div class="container">
+        <!-- Företaget -->
+        <div class="row">
+            <!-- Lägg information om företaget här -->
+            <p>Här finns det intresanta inlägg som du kan ha nytta utav. Vi har funnits jätte länge snart i 20 år och vi är väldigt erfarna. Vi var först i världen med denna iden. </p>
+        </div>
+        <!-- Ledarna -->
         <div class="row ">
             <div class="col-sm-4">
-                <h3>start1</h3>
-                <p>godmorgon det är ett sjukt nice väder ut</p>
-                <p>hejsan jag gillar sol väldigt mycket</p>
+                <h3>Namn: Bengt Bengtsson</h3>
+                <p>Telefon: 070739645</p>
+                <p>Mail: beng.bengtsson@gmail.com</p>
             </div>
             
             <div class="col-sm-4">
-                <h3>start2</h3>
-                <p>jag gillar majs</p>
-                <p>det är fruktansvärt gott</p>
+                <h3>Philip Antonsson</h3>
+                <p>Telefon:070527845</p>
+                <p>Mail: philip.antonsson@gmail.com</p>
             </div>
-            
             <div class="col-sm-4">
-                <h3>start3</h3>        
-                <p>jag tycker om att titta på fotboll</p>
-                <p>det är väldigt trevligt</p>
+                <h3>Victor Bohmies</h3>
+                <p>Telefon:0706757463</p>
+                <p>Mail: victor.bohmies@gmail.com</p>
             </div>
         </div>
-            
-        <img class="img-responsive" src="http://templines.rocks/html/motorland/assets/media/components/b-goods/263x210_1.jpg">
-
-        <p>tryck på kanappen så händer något riktigt intresant</p>
-        <button onclick="myFunction()">Try it</button>
-        <p>Summan av alla tal i arrayen: <span id="demo"></span></p>
+        
+        <!-- Kontaktformulär -->
+        <div class="row">
+            <!-- Lägg Kontaktformulär här -->
+        </div>
     </div>
 
     <footer>
@@ -108,20 +112,7 @@ Tänk dig att du ska skapa mallen för alla sidor på wikipedia.
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     
     <!-- JS - BOOTSTRAP -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
-    <script>
-    var numbers = [188, 69, 1, 22];
-
-    function getSum(total, num) {
-        return total + num;
-    }
-    function myFunction(item) {
-        document.getElementById("demo").innerHTML = numbers.reduceRight(getSum);
-    }
-    </script>               
-              
-              
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>                     
 </body>
 </html>
 
